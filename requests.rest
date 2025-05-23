@@ -1,0 +1,23 @@
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2hpdmFwcmFzYWQiLCJpYXQiOjE3NDgwMDEwMzUsImV4cCI6MTc0ODAwMTA1MH0.55ymlyjqb3eWQu7z1YSYGexwL_phb7sx8mICz2v1_vM
+###
+DELETE http://localhost:4000/logout
+Content-type: application/json
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2hpdmFwcmFzYWQiLCJpYXQiOjE3NDgwMDE0NzMsImV4cCI6MTc0ODAwMTQ4OH0.SVsaSt5WNRIb1Tqms1Bm6lyRdnCjccuXCfOH3IBIZBU"
+}
+
+###
+POST http://localhost:4000/token
+Content-type: application/token
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2hpdmFwcmFzYWQiLCJpYXQiOjE3NDgwMDE0NzN9.t_GJIeXhnRFak8P3CHEGsOrZbF2I8mFDpUOuN8GZSv0"
+}
+###
+
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{ 
+  "username": "Shivaprasad"
+}
