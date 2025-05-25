@@ -5,8 +5,6 @@ This project demonstrates how to implement **JWT-based authentication** using **
 - `authServer.js` (port 4000) – handles login and token generation.
 - `server.js` (port 3000) – hosts protected route `/posts` that requires a valid access token.
 
----
-
 ## 📁 Project Structure
 
 project/
